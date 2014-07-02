@@ -11,9 +11,9 @@ void setup()
 
 
 fill(0);
-  for(int a=0; a<size;a++)
+  for(int b=0; b<size;b++)
   {
-    rect(x, 250-cheesesticks[a], 10, cheesesticks[a]);
+    rect(x, 250-cheesesticks[b], 10, cheesesticks[b]);
     x+=15;
   }
 }
